@@ -20,14 +20,40 @@ body
 
 }
 
+
+
 p {
     font-family: 'Lobster', cursive;
     color: saddlebrown;
+    width: 350px;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 12px;
+    margin: 50px;
+    overflow: auto;
+    word-wrap: break-word;
 
 }
 
 
+.element
+{
+    display: flex;
+    flex-direction: column;
+}
 
+
+li{
+    list-style: none;
+}
+
+.titre2{
+    text-align: center;
+}
+
+.logo{
+    width: 50px;
+}
 
 h1
 {
@@ -87,6 +113,36 @@ h2
     width: 50%px;
 }
 
+.HetS
+{
+    border-top:2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 6px 6px 0px black;
+
+}
+
+a:hover /* Apparence au survol des liens */
+{
+    text-decoration: underline;
+    color: red;
+}
+
+p
+{
+    width: 50%;
+}
+
+.main_nav{
+
+    float: left;
+
+}
+
+a
+{
+    display: block;
+}
 
 
 @media only screen and (orientation: landscape) {
